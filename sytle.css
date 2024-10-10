@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, h1, h2, h3, a {
+    color: white;
+}
+
+
+.principal {
+    display: flex;
+    width: 100%;
+}
+
+.navegacao {
+    width: 15vw;
+    height: 100vh;
+    background-color: rgb(49, 48, 48);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navegacao h1 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding-top: 35px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.navegacao li {
+    padding-top: 30px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: white;
+}
+
+.perfil {
+    margin-top: 35px;
+    width: 200px;
+    border: inset;
+    border-color: white;
+    border-radius: 50%;
+    margin-left: 35px;
+    box-shadow: 300px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15vw; 
+    width: 85vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.back {
+    width: 100%;
+    max-height: 102.1vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal p {
+    width: 650px;
+    background-color: rgba(2, 2, 2,0.3);
+    color: white;
+    text-shadow: 3px 3px black;
+    position: absolute;
+    font-size: 1.5rem;
+    display: flex;
+    margin-bottom: 354px;
+    margin-left: 550px;
+}
+
+.sobre{
+    margin-left: 17%;
+    margin-top: 5%;
+    height: 100vh;
+}
+.sobre h1{
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 4%;
+}
+.sobre p {
+    margin-top: 35px;
+    color: black;
+    text-align: center;
+}
