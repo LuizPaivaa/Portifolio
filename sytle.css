@@ -109,28 +109,41 @@ p, h1, h2, h3, a {
 
 .sobre {
     margin-left: 17%;
-    margin-top: 5%;
+    margin-top: 3%;
+    padding-top: 10%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .sobre h1 {
     color: black;
-    font-size: 2.5rem;
-    margin-left: 4%;
+    font-size: 1.3rem;
     text-shadow: 5px 5px 5px rgb(200, 200, 200);
+}
+.tiacris{
+    width: 350px;
+}
+.tiacris2{
+    width: 350px;
+    margin-top: 35px;
+    margin-left: 73%;
 }
 
 .sobre p {
     margin-top: 35px;
+    margin-left: 3%;
     color: black;
     text-align: center;
-    text-shadow: 5px 5px 5px rgb(200, 200, 200);
+    width: 650px;
+    text-align: justify;
 }
 
 .sobre img {
-    margin-left: 570px;
+    position: absolute;
+    margin-left: 770px;
     margin-top: 100px;
-    width: 400px;
+    width: 600px;
     box-shadow: 3px 3px 3px 3px;
 }
 
@@ -140,7 +153,6 @@ p, h1, h2, h3, a {
     margin-left: 15%;
     padding-top: 36px;
     padding-left: 55px;
-    text-shadow: 3px 2px 2px white;
 }
 
 .resumo h1 {
@@ -148,9 +160,8 @@ p, h1, h2, h3, a {
 }
 
 .resumo li {
-    font-size: 35px;
+    font-size: 30px;
     list-style: none;
-    font-size: 33px;
 }
 
 .exp {
@@ -164,11 +175,11 @@ p, h1, h2, h3, a {
 
 .formacoes h1, .experiencias h1 {
     color: black;
-    font-size: 55px;
+    font-size: 1.3rem;
 }
 
 .formacoes ul, .experiencias ul {
-    font-size: 33px;
+    font-size: 0.7rem;
     margin-right: 5px;
 }
 .formacoes li{
@@ -181,12 +192,12 @@ p, h1, h2, h3, a {
 .exp h2 {
     padding-top: 150px;
     color: black;
-    font-size: 36px;
+    font-size: 0.5rem;
 }
 
 .exp p {
     color: black;
-    font-size: 20px;
+    font-size: 0.5rem;
 }
 
 .project{
