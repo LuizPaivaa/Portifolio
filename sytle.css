@@ -183,10 +183,10 @@ p, h1, h2, h3, a {
     margin-right: 5px;
 }
 .formacoes li{
-    list-style-image: url(/fotos/estudo.png);
+    list-style-image: url(foto/estudo.png);
 }
 .exp li{
-    list-style-image: url(/fotos/job.png);
+    list-style-image: url(foto/job.png);
 }
 
 .exp h2 {
@@ -247,4 +247,38 @@ p, h1, h2, h3, a {
     font-size: 35px;
 }
 
+.contato{
+    padding-top: 50px;
+    background-color: rgb(224, 224, 224);
+    height: 100vh;
+}
+.contato h1{
+    font-size: 55px;
+    color: black;
+    margin-left: 25%;
+}
+.contato a{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.35rem;
+    margin-top: 90px;
+    text-decoration: none;
+}
+.contato i{
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-items:start;
+}
 
+.rodape{
+    width: 100%;
+    margin-left: 15%;
+    position:absolute;
+    justify-content: center;
+    background-color: black;
+}
+.rodape h1{
+    text-align: center;
+}
