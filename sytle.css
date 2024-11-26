@@ -1,26 +1,31 @@
+/* Configurações gerais para remover margens, preenchimentos e definir a fonte */
 * {
     margin: 0;
     padding: 0;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-hr{
-    border-color:#aaa;
-    height: 1px;
-    box-sizing:border-box;
-    width:100%;  
-  }
 
+/* Estilização das linhas horizontais */
+hr {
+    border-color: #aaa;
+    height: 1px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Cor branca aplicada a textos gerais */
 p, h1, h2, h3, a {
     color: white;
 }
 
+/* Área principal com layout flexível */
 .principal {
     display: flex;
     width: 100%;
 }
 
-
+/* Barra de navegação lateral fixa */
 .navegacao {
     width: 15vw;
     height: 100vh;
@@ -30,6 +35,7 @@ p, h1, h2, h3, a {
     left: 0;
 }
 
+/* Estilização do título na barra de navegação */
 .navegacao h1 {
     text-align: center;
     margin-top: 5px;
@@ -37,32 +43,38 @@ p, h1, h2, h3, a {
     text-shadow: 5px 2px black;
 }
 
+/* Lista centralizada na navegação */
 .navegacao ul {
     list-style: none;
     margin-left: 0;
     text-align: center;
-    
 }
 
-.cursor{
+/* Estilização para cursor */
+.cursor {
     width: 70%;
     margin-left: 35px;
 }
+
+/* Itens de lista com espaçamento e sombra */
 .navegacao li {
     margin-top: 30px;
     text-shadow: 5px 3px 2px black;
-    
 }
-.navegacao li:hover{
+
+/* Efeito de hover nos itens da lista */
+.navegacao li:hover {
     transition: 1s ease;
     background-color: green;
 }
 
+/* Links na navegação com decoração e cor */
 .navegacao a {
     text-decoration: none;
     color: white;
 }
 
+/* Imagem de perfil na navegação */
 .perfil {
     margin-top: 35px;
     width: 200px;
@@ -72,12 +84,15 @@ p, h1, h2, h3, a {
     margin-left: 35px;
     box-shadow: 300px;
 }
-.perfil:hover{
+
+/* Efeito de zoom ao passar o mouse na imagem de perfil */
+.perfil:hover {
     transform: 1s ease;
-    transform:scale(1.2);
+    transform: scale(1.2);
     margin-bottom: 15px;
 }
 
+/* Área principal do conteúdo */
 .conteudo-principal {
     display: flex;
     flex-direction: column;
@@ -89,6 +104,7 @@ p, h1, h2, h3, a {
     text-align: center;
 }
 
+/* Imagem de fundo */
 .back {
     width: 100%;
     max-height: 102.1vh;
@@ -96,6 +112,7 @@ p, h1, h2, h3, a {
     margin-bottom: 20px;
 }
 
+/* Parágrafo principal com texto centralizado */
 .conteudo-principal p {
     width: 650px;
     background-color: rgba(2, 2, 2, 0.3);
@@ -108,6 +125,7 @@ p, h1, h2, h3, a {
     margin-left: 550px;
 }
 
+/* Seção sobre */
 .sobre {
     margin-left: 17%;
     margin-top: 3%;
@@ -117,20 +135,25 @@ p, h1, h2, h3, a {
     flex-direction: column;
 }
 
+/* Títulos da seção sobre */
 .sobre h1 {
     color: black;
     font-size: 1.3rem;
     text-shadow: 5px 5px 5px rgb(200, 200, 200);
 }
-.tiacris{
+
+/* Imagem tia Cris */
+.tiacris {
     width: 350px;
 }
-.tiacris2{
+
+.tiacris2 {
     width: 350px;
     margin-top: 35px;
     margin-left: 73%;
 }
 
+/* Parágrafos dentro da seção sobre */
 .sobre p {
     margin-top: 35px;
     margin-left: 3%;
@@ -140,6 +163,7 @@ p, h1, h2, h3, a {
     text-align: justify;
 }
 
+/* Estilização da imagem na seção sobre */
 .sobre img {
     position: absolute;
     margin-left: 770px;
@@ -148,6 +172,7 @@ p, h1, h2, h3, a {
     box-shadow: 3px 3px 3px 3px;
 }
 
+/* Seção resumo */
 .resumo {
     background-color: rgb(224, 224, 224);
     height: 100vh;
@@ -156,20 +181,24 @@ p, h1, h2, h3, a {
     padding-left: 55px;
 }
 
+/* Título da seção resumo */
 .resumo h1 {
     font-size: 55px;
 }
 
+/* Itens de lista na seção resumo */
 .resumo li {
     font-size: 30px;
     list-style: none;
 }
 
+/* Área de experiências */
 .exp {
     display: flex;
     justify-content: space-between;
 }
 
+/* Estilização de formações e experiências */
 .formacoes, .experiencias {
     width: 45%;
 }
@@ -179,14 +208,17 @@ p, h1, h2, h3, a {
     font-size: 1.3rem;
 }
 
+/* Lista de formções e experiências */
 .formacoes ul, .experiencias ul {
     font-size: 0.7rem;
     margin-right: 5px;
 }
-.formacoes li{
+
+.formacoes li {
     list-style-image: url(foto/estudo.png);
 }
-.exp li{
+
+.exp li {
     list-style-image: url(foto/job.png);
 }
 
@@ -196,51 +228,63 @@ p, h1, h2, h3, a {
     font-size: 0.5rem;
 }
 
+/* Parágrafos na seção de experiências */
 .exp p {
     color: black;
     font-size: 0.5rem;
 }
 
-.project{
+/* Projetos */
+.project {
     height: 100vh;
     margin-left: 16.5%;
     margin-top: 3%;
 }
-.project img{
+
+.project img {
     margin-top: 10px;
     width: 450px;
     height: 450px;
     border-radius: 50px;
 }
-.project img:hover{
+
+/* Efeito de hover nas imagens dos projetos */
+.project img:hover {
     transition: 1s ease;
     transform: scale(1.3);
     opacity: 1;
 }
-.project h1{
+
+.project h1 {
     font-size: 55px;
     margin-left: 5%;
     margin-bottom: 5%;
     color: black;
     text-shadow: 5px 5px 5px rgb(200, 200, 200);
 }
-.desc{
+
+.desc {
     margin-top: 0;
     color: white;
     text-shadow: 5px 5px 5px black;
     opacity: 0;
     position: absolute;
     width: 500px;
-    background-color: rgba(2, 2, 2, 0.3);    
+    background-color: rgba(2, 2, 2, 0.3);
 }
-.project ul{
+
+/* Lista de projetos */
+.project ul {
     display: flex;
     list-style: none;
 }
-.project li{
+
+.project li {
     margin-top: 30px;
     text-align: center;
 }
+
+/* Links de projetos */
 .project a {
     color: black;
     text-decoration: none;
@@ -248,17 +292,23 @@ p, h1, h2, h3, a {
     font-size: 35px;
 }
 
-.contato{
+/* Seção de contato */
+.contato {
     padding-top: 50px;
     background-color: rgb(224, 224, 224);
     height: 100vh;
 }
-.contato h1{
+
+.contato h1 {
     font-size: 55px;
     color: black;
     margin-left: 25%;
 }
-.contato a{
+
+/* Links de contato */
+.contato a {
+    margin-left: 50%;
+    width: 150px;
     color: black;
     display: flex;
     justify-content: center;
@@ -266,20 +316,26 @@ p, h1, h2, h3, a {
     margin-top: 90px;
     text-decoration: none;
 }
-.contato i{
+.contato a:hover {
+    text-decoration:underline;
+}
+
+.contato i {
     padding-right: 50px;
     display: flex;
     align-items: center;
-    justify-items:start;
+    justify-items: start;
 }
 
-.rodape{
+/* Rodapé */
+.rodape {
     width: 85%;
     margin-left: 15%;
-    position:absolute;
+    position: absolute;
     justify-content: center;
     background-color: black;
 }
-.rodape h1{
+
+.rodape h1 {
     text-align: center;
 }
